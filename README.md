@@ -1,3 +1,3 @@
 # okdeskapi
 OkDesk API integration
-Tests with Bitrix24 CRM
+Tests (included crest library) with Bitrix24 CRM
