@@ -1,0 +1,26 @@
+{
+    "name": "semyashkin/okdeskapi",
+    "description": "OkDesk API integration",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "ext-json": "^8.0",
+        "ext-iconv": "^8.0",
+        "ext-curl": "^8.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "OkDesk\\": "src/"
+        },
+        "files": ["src/CRestLibrary/crest.php"]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikhail Semyashkin",
+            "email": "semyashkin@denvic.ru"
+        }
+    ],
+    "minimum-stability": "stable"
+}
